@@ -140,6 +140,8 @@ P.product_name,
 P.category
 ORDER BY revenue DESC 
 
+ --Create view for virtualization purpose
+ 
 CREATE VIEW productsoldrevenue AS
 SELECT 
 P.product_id,
